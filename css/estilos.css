@@ -16,6 +16,14 @@ body{
     overflow: hidden;
 }
 
+.contenedor_pequeno{
+    padding: 10px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
 .titulo{
     color: #CBD6A5;
     font-size: 30px;
@@ -86,6 +94,7 @@ header .textos-header{
 
 .imagen-about-us{
     width: 48%;
+    height: 48%;
 }
 
 .sobre-nosotros .contenido-textos{
@@ -110,6 +119,13 @@ header .textos-header{
     margin-left: 10px;
 }
 
+.contenido-textos h4{
+    text-align: justify;
+    color: black;
+    font-style: bold;
+    padding: 0px 0px 15px 15px;
+}
+
 .contenido-textos p{
     padding: 0px 0px 30px 15px;
     font-weight: 300;
@@ -126,6 +142,13 @@ header .textos-header{
     padding: 0px 0px 15px 0px;
     font-weight: 300;
     text-align: justify;
+}
+
+.contenido-textos2 h4{
+    text-align: justify;
+    color: black;
+    font-style: bold;
+    padding: 0px 0px 15px 0px;
 }
 
 /* Footer */
@@ -165,6 +188,8 @@ footer{
     margin: 20px 0 0 0;
     color: white;
 }
+
+/* Mobile screen view */
 
 @media screen and (max-width:900px){
     header{
